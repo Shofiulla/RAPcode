@@ -1,1 +1,91 @@
+/* Reset and base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header & Topbar */
+header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #ffffff;
+}
+.logo img {
+  height: 40px;
+}
+.datetime {
+  font-size: 14px;
+  color: #555;
+}
+.search-bar input {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+/* Navigation */
+nav {
+  background-color: #007BFF;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.nav-links li {
+  margin: 0 15px;
+}
+.nav-links a {
+  display: block;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+.nav-links a:hover {
+  background-color: #0056b3;
+  border-radius: 5px;
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+}
+.content {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  text-align: center;
+}
+.content h1 {
+  margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: #ddd;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+}
 
